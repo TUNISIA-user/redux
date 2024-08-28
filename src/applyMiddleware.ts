@@ -2,7 +2,7 @@ import compose from './compose'
 import type { Middleware, MiddlewareAPI } from './types/middleware'
 import type { StoreEnhancer, Dispatch } from './types/store'
 
-/**
+/******
  * Creates a store enhancer that applies middleware to the dispatch method
  * of the Redux store. This is handy for a variety of tasks, such as expressing
  * asynchronous actions in a concise manner, or logging every action payload.
